@@ -9,5 +9,8 @@
         <module name="stepick-brut-force" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stepick-brut-force" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

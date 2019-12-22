@@ -1,31 +1,33 @@
 package ru.azat.stepick.brutforce;
 
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-public class StepickClientImpl implements StepickClient, StepickBrutForce<String> {
-    private final ChromeDriver driver;
+public class StepickClientImpl implements StepickClient, StepickBrutForce<List<Answer>> {
+    private final RemoteWebDriver driver;
     private String login;
     private String password;
+    private WebDriverWait defaultWaitLoad;
+    private WebDriverWait longWaitLoad;
 
-    public StepickClientImpl() {
+    public StepickClientImpl(RemoteWebDriver remoteWebDriver) {
         this.login = null;
         this.password = null;
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\naukg\\chromedriver.exe");
-        driver = new ChromeDriver();
+        driver = remoteWebDriver;
+        defaultWaitLoad = new WebDriverWait(driver, 10);
+        longWaitLoad = new WebDriverWait(driver, 100);
     }
 
     public String getLogin() {
@@ -36,22 +38,18 @@ public class StepickClientImpl implements StepickClient, StepickBrutForce<String
         return password;
     }
 
-    public void waitLoadAttempt() {
-        WebDriverWait waitLoad = new WebDriverWait(driver, 100);
-        waitLoad.until(ExpectedConditions.elementToBeClickable(By.className("attempt__inner")));
-    }
-
-    public String brutForce(String url) {
-
+    public List<Answer> brutForce(String url) {
         driver.get(url);
 
-        waitLoadAttempt();
+        longWaitLoad.until(ExpectedConditions.elementToBeClickable(By.className("submit-submission")));
 
         List<WebElement> quizElements = getCurrentPageQuizOptions();
 
+        List<Answer> result;
+
         for (int i = 0; i < Math.pow(2, quizElements.size()); i++) {
-            if(test(i)) {
-                break;
+            if ((result = test(i)) != null) {
+                return result;
             }
         }
 
@@ -59,25 +57,41 @@ public class StepickClientImpl implements StepickClient, StepickBrutForce<String
         return null;
     }
 
-    public boolean test(int iteration) {
+    public List<Answer> test(int iteration) {
         List<WebElement> quizElements = getCurrentPageQuizOptions();
 
-        boolean[] bitArray = longToBitArray(quizElements.size(), iteration);
-        for(int i = 0; i < bitArray.length; i++) {
-            if(bitArray[i]) {
-                WebElement currentElement = quizElements.get(i);
-                WebElement parent = currentElement.findElement(By.xpath(".."));
-                parent.findElement(By.tagName("input")).click();
+        Boolean[] bitArray = longToBitArray(quizElements.size(), iteration);
+        for (int i = 0; i < bitArray.length; i++) {
+            if (bitArray[i]) {
+                quizElements.get(i).click();
             }
         }
 
-        driver.findElement(By.className("submit-submission")).click();
+        longWaitLoad.until(ExpectedConditions.elementToBeClickable(By.className("submit-submission")));
+
+        WebElement element = driver.findElement(By.className("submit-submission"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element);
+
+        driver.findElement(By.className("submit-submission")).sendKeys(Keys.ENTER);
         WebDriverWait waitLoad = new WebDriverWait(driver, 100);
         waitLoad.until(ExpectedConditions.elementToBeClickable(By.className("success")));
+        WebElement successOrError = driver.findElement(By.className("success"));
+        if (successOrError.getText().toLowerCase().equals("следующий шаг")) {
+            List<Answer> answerList = new ArrayList<>();
+            for (int i = 0; i < bitArray.length; i++) {
+                answerList.add(new Answer(quizElements.get(i).getText(), bitArray[i]));
+            }
+            return answerList;
+        }
+
+        driver.findElement(By.className("success")).sendKeys(Keys.ENTER);
+
+        longWaitLoad.until(ExpectedConditions.elementToBeClickable(By.className("submit-submission")));
 
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
-        return false;
+        return null;
     }
 
     private List<WebElement> getCurrentPageQuizOptions() {
@@ -87,8 +101,8 @@ public class StepickClientImpl implements StepickClient, StepickBrutForce<String
                 .collect(Collectors.toList());
     }
 
-    private boolean[] longToBitArray(int size, long value) {
-        final boolean[] ret = new boolean[size];
+    private Boolean[] longToBitArray(int size, long value) {
+        final Boolean[] ret = new Boolean[size];
         for (int i = 0; i < size; i++) {
             ret[size - 1 - i] = (1 << i & value) != 0;
         }

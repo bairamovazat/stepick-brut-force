@@ -1,28 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9d8f26e-a211-49b7-83e7-8a40439e7346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d9d8f26e-a211-49b7-83e7-8a40439e7346" name="Default Changelist" comment="bf">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Answer.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Main.java" afterPath="$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/StepickClientImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/StepickClientImpl.java" />
+      <change beforePath="$PROJECT_DIR$/stepick-brut-force.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/azat/stepick/brutforce/Main.class" afterPath="$PROJECT_DIR$/target/classes/ru/azat/stepick/brutforce/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/azat/stepick/brutforce/StepickClientImpl.class" afterPath="$PROJECT_DIR$/target/classes/ru/azat/stepick/brutforce/StepickClientImpl.class" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StepickClientImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/StepickClientImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Answer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+              <folding>
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>asList</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response1.json" root0="SKIP_INSPECTION" />
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Answer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/StepickClientImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -31,8 +125,71 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
   <component name="ProjectId" id="1VLUGt8XaQVHeeW4kHOP83UCqLA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stepick-brut-force" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stepick-brut-force" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stepick-brut-force" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stepick-brut-force" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stepick-brut-force" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stepick-brut-force" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stepick-brut-force" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stepick-brut-force" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stepick-brut-force" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stepick-brut-force" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="brutforce" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,6 +200,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -80,23 +238,41 @@
       </list>
     </option>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.azat.stepick.brutforce.Main" />
-      <module name="stepick-brut-force" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="ru.azat.stepick.brutforce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="MAIN_CLASS_NAME" value="ru.azat.stepick.brutforce.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="stepick-brut-force" />
+      <envs />
     </configuration>
     <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +288,9 @@
       </list>
     </option>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -123,11 +302,61 @@
       <option name="presentableId" value="Default" />
       <updated>1577031777035</updated>
       <workItem from="1577031780847" duration="7252000" />
+      <workItem from="1577051502098" duration="5359000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5359000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32683983" sideWeight="0.4969697" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36084142" sideWeight="0.5060606" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919094" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49398908" sideWeight="0.4939394" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13019694" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.061269145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38360655" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="23" y="284" width="914" height="479" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2951389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bf" />
+    <option name="LAST_COMMIT_MESSAGE" value="bf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1346" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1577032768000">
@@ -174,5 +403,228 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1577038641045" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="currentElement.findElement(By.xpath(&quot;..&quot;))" language="JAVA" />
+        <watch expression="currentElement" language="JAVA" />
+        <watch expression="((RemoteWebElement) currentElement).findElementByXPath(&quot;..&quot;)" language="JAVA" custom="org.openqa.selenium.remote.RemoteWebElement" />
+        <watch expression="currentElement.findElement(By.xpath(&quot;./..&quot;))" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>currentElement.findElement(By.xpath(&quot;./..&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((RemoteWebElement) currentElement).findElementByXPath(&quot;..&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.openqa.selenium.remote.RemoteWebElement</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentElement</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentElement.findElement(By.xpath(&quot;..&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>quizElements.get(i).findElement(By.xpath(&quot;..&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1561137787827" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1561137787827" expanded="false" signature="143:548" ph="..." />
+            <marker date="1561137787827" expanded="true" signature="593:600" ph="{}" />
+            <marker date="1561137787827" expanded="false" signature="636:647" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="670:676" ph=" }" />
+            <marker date="1561137787827" expanded="false" signature="724:735" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="770:776" ph=" }" />
+            <marker date="1561137787827" expanded="false" signature="838:849" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="898:904" ph=" }" />
+            <marker date="1561137787827" expanded="false" signature="944:955" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="982:988" ph=" }" />
+            <marker date="1561137787827" expanded="false" signature="1034:1045" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="1078:1084" ph=" }" />
+            <marker date="1561137787827" expanded="false" signature="1136:1147" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="1186:1192" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="1242:1253" ph=" { " />
+            <marker date="1561137787827" expanded="true" signature="1290:1296" ph=" }" />
+            <marker date="1561137787827" expanded="false" signature="1350:1361" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="1402:1408" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="1467:1779" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="1889:2072" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="2099:2110" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="2144:2150" ph=" }" />
+            <marker date="1561137787827" expanded="false" signature="2180:2191" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="2218:2224" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="2299:3596" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="2469:2704" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="2767:3092" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="3162:3486" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="3520:3535" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="3580:3590" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="3669:4986" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="3833:4076" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="4146:4391" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="4454:4697" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="4768:4880" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="4914:4929" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="4970:4980" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="5055:5906" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="5227:5472" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="5542:5639" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="5702:5798" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="5832:5847" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="5890:5900" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="5977:6985" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="6134:6358" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="6428:6625" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="6688:6883" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="6917:6932" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="6969:6979" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="7053:8039" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="7200:7412" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="7482:7682" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="7745:7943" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="7977:7992" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="8023:8033" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="8118:9018" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="8299:8548" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="8618:8728" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="8791:8900" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="8934:8949" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="9002:9012" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="9090:9906" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="9250:9478" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="9548:9644" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="9707:9802" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="9836:9851" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="9890:9900" ph=" }" />
+            <marker date="1561137787827" expanded="true" signature="9972:10916" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="10114:10317" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="10387:10575" ph="{...}" />
+            <marker date="1561137787827" expanded="true" signature="10638:10824" ph="{...}" />
+            <marker date="1561137787827" expanded="false" signature="10858:10873" ph=" { " />
+            <marker date="1561137787827" expanded="false" signature="10900:10910" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <marker date="1561137779090" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1561137779090" expanded="false" signature="150:1080" ph="..." />
+            <marker date="1561137779090" expanded="true" signature="1418:1429" ph=" { " />
+            <marker date="1561137779090" expanded="true" signature="1499:1505" ph=" }" />
+            <marker date="1561137779090" expanded="false" signature="1559:1570" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="1605:1611" ph=" }" />
+            <marker date="1561137779090" expanded="true" signature="1617:1635" ph="/**...*/" />
+            <marker date="1561137779090" expanded="false" signature="1702:1713" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="1776:1782" ph=" }" />
+            <marker date="1561137779090" expanded="false" signature="1830:1841" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="1899:1905" ph=" }" />
+            <marker date="1561137779090" expanded="false" signature="1982:1993" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="2030:2036" ph=" }" />
+            <marker date="1561137779090" expanded="true" signature="2042:2060" ph="/**...*/" />
+            <marker date="1561137779090" expanded="true" signature="2157:2553" ph="{...}" />
+            <marker date="1561137779090" expanded="true" signature="2610:2754" ph="{...}" />
+            <marker date="1561137779090" expanded="false" signature="2797:2808" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="2849:2855" ph=" }" />
+            <marker date="1561137779090" expanded="false" signature="2902:2913" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="2956:2962" ph=" }" />
+            <marker date="1561137779090" expanded="false" signature="2994:3005" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="3044:3050" ph=" }" />
+            <marker date="1561137779090" expanded="false" signature="3098:3109" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="3152:3158" ph=" }" />
+            <marker date="1561137779090" expanded="false" signature="3193:3204" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="3228:3234" ph=" }" />
+            <marker date="1561137779090" expanded="false" signature="3284:3295" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="3348:3354" ph=" }" />
+            <marker date="1561137779090" expanded="true" signature="3424:3497" ph="{...}" />
+            <marker date="1561137779090" expanded="false" signature="3535:3546" ph=" { " />
+            <marker date="1561137779090" expanded="false" signature="3599:3605" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="478" column="45" lean-forward="false" selection-start-line="478" selection-start-column="45" selection-end-line="478" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="3789" column="53" lean-forward="false" selection-start-line="3789" selection-start-column="47" selection-end-line="3789" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/azat/stepick/brutforce/StepickClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
